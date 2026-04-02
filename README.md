@@ -5,7 +5,7 @@ A simple full-stack web application where users can create, read, update, and de
 ---
 
 ## 🚀 Live Demo
-👉](https://qourapost-1.onrender.com/posts)
+👉 https://qourapost-1.onrender.com/posts
 
 ---
 
