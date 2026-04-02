@@ -55,8 +55,8 @@ project-folder/
 ## ⚙️ Installation & Setup
 
 ### 1. Clone the repository
-https://github.com/SHANKARMDP/QouraPost/new/master
 
+(https://github.com/SHANKARMDP/QouraPost.git)
 
 
 
