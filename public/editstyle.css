@@ -1,0 +1,87 @@
+/* Reset */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+    padding: 0;
+}
+
+/* Heading */
+h2 {
+    text-align: center;
+    background-color: #b92b27;
+    color: white;
+    padding: 15px;
+    margin: 0;
+}
+
+/* Info text */
+p {
+    text-align: center;
+    color: #555;
+    margin: 5px;
+}
+
+/* Form container */
+form {
+    width: 50%;
+    margin: 30px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+/* Textarea */
+textarea {
+    width: 90%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+    resize: none;
+    outline: none;
+    transition: 0.3s;
+}
+
+/* Focus effect */
+textarea:focus {
+    border-color: #b92b27;
+    box-shadow: 0 0 5px rgba(185, 43, 39, 0.3);
+}
+
+/* Submit button */
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Hover effect */
+button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+/* Optional Back Button */
+.back-btn {
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+    text-decoration: none;
+    background-color: #2196F3;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.back-btn:hover {
+    background-color: #1976D2;
+}

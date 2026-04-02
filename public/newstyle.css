@@ -1,0 +1,75 @@
+/* Reset */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+    padding: 0;
+}
+
+/* Form container */
+form {
+    width: 40%;
+    margin: 80px auto;
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+/* Input field */
+input {
+    width: 90%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+    outline: none;
+    transition: 0.3s;
+}
+
+/* Textarea */
+textarea {
+    width: 90%;
+    height: 120px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+    resize: none;
+    outline: none;
+    transition: 0.3s;
+}
+
+/* Focus effect */
+input:focus,
+textarea:focus {
+    border-color: #b92b27;
+    box-shadow: 0 0 5px rgba(185, 43, 39, 0.3);
+}
+
+/* Button */
+button {
+    margin-top: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Hover */
+button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+/* Optional Heading */
+h2 {
+    text-align: center;
+    margin-top: 30px;
+    color: #b92b27;
+}

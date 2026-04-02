@@ -1,0 +1,71 @@
+/* Reset */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+    padding: 0;
+}
+
+/* Heading */
+h2 {
+    text-align: center;
+    background-color: #b92b27;
+    color: white;
+    padding: 15px;
+    margin: 0;
+}
+
+/* Post ID */
+p {
+    text-align: center;
+    color: #555;
+    margin-top: 10px;
+}
+
+/* Post Card */
+.post {
+    width: 50%;
+    margin: 30px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Username */
+.user {
+    margin: 0;
+    color: #b92b27;
+    font-size: 20px;
+}
+
+/* Content */
+.post h4 {
+    margin-top: 15px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Hover effect */
+.post:hover {
+    transform: scale(1.02);
+    transition: 0.3s;
+}
+
+/* Optional Back Button */
+.back-btn {
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+    text-decoration: none;
+    background-color: #2196F3;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.back-btn:hover {
+    background-color: #1976D2;
+}
